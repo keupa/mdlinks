@@ -1,6 +1,13 @@
 #!/usr/bin/env node
 
-let { getArgs } = require("./app.js")
+let { main } = require("./app.js")
 
-getArgs()
+async function init(){
+
+    console.log('hola este es mi md links: ')
+    await main()
+}
+
+init()
+
 
