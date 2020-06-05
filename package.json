@@ -1,0 +1,19 @@
+{
+  "name": "testlinks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "mdlinks": "cli.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "marked": "^1.1.0",
+    "node-fetch": "^2.6.0"
+  }
+}
